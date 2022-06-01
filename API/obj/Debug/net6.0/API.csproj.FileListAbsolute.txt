@@ -106,3 +106,11 @@ C:\users\Hardik\DatingApp\api\obj\Debug\net6.0\refint\API.dll
 C:\users\Hardik\DatingApp\api\obj\Debug\net6.0\API.pdb
 C:\users\Hardik\DatingApp\api\obj\Debug\net6.0\API.genruntimeconfig.cache
 C:\users\Hardik\DatingApp\api\obj\Debug\net6.0\ref\API.dll
+C:\Users\Hardik\DatingApp\API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Hardik\DatingApp\API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Hardik\DatingApp\API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Hardik\DatingApp\API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Hardik\DatingApp\API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Hardik\DatingApp\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Hardik\DatingApp\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Hardik\DatingApp\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
