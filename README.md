@@ -1,4 +1,4 @@
-# Connect me
+# Practice App
 1. Basic Concepts -  Threading in C# - Free E-book
 
 https://www.albahari.com/threading/
