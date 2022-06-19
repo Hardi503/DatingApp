@@ -41,6 +41,7 @@ namespace API.Middleware
                 var json = JsonSerializer.Serialize(response,options);
 
                 await context.Response.WriteAsync(json);
+                
             }
         }
     }
