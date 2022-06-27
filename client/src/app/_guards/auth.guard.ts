@@ -10,15 +10,15 @@ import { AccountService } from '../_services/account.service';
 })
 export class AuthGuard implements CanActivate {
 
-  constructor(private accountServices: AccountService, private toastr: ToastrService){}
-  canActivate(): Observable<boolean > {
-    return this.accountServices.currentUser$.pipe(
-      map(user => {
-      if(user) return true;
-      this.toastr.error('You shall not pass!')
-      })
+  constructor(private accountService: AccountService, private toastr: ToastrService) {}
 
+  canActivate(): Observable<boolean> {
+    return this.accountService.currentUser$.pipe(
+      map(user => {
+        if (user) return true;
+        this.toastr.error('You shall not pass!')
+      })
     )
   }
-  
+
 }

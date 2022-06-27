@@ -12,13 +12,13 @@ export class DateInputComponent implements ControlValueAccessor {
   @Input() maxDate: Date;
   bsConfig: Partial<BsDatepickerConfig>;
 
-  constructor(@Self() public ngControl: NgControl) {
-      this.ngControl.valueAccessor = this;
-      this.bsConfig = {
-        containerClass: 'theme-red',
-        dateInputFormat: 'DD MMMM YYYY'
-      }
-   }
+  constructor(@Self() public ngControl: NgControl) { 
+    this.ngControl.valueAccessor = this;
+    this.bsConfig = {
+      containerClass: 'theme-red',
+      dateInputFormat: 'DD MMMM YYYY'
+    }
+  }
 
   writeValue(obj: any): void {
   }
@@ -28,5 +28,5 @@ export class DateInputComponent implements ControlValueAccessor {
 
   registerOnTouched(fn: any): void {
   }
-
+  
 }
